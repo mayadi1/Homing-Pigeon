@@ -64,6 +64,8 @@
      * has not gone through yet. It will be updating the location constantly and each time it does, the
      * delegate method below will fire, so you can get the updated location from there.
      */
+    [self.locationManager startUpdatingLocation];
+    
     float latitude = self.locationManager.location.coordinate.latitude;
     float longitude = self.locationManager.location.coordinate.longitude;
     NSUserDefaults *deviceToken = [NSUserDefaults standardUserDefaults];
