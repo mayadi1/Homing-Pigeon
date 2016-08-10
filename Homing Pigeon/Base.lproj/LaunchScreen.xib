@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="976627-0-bluesquare.png" translatesAutoresizingMaskIntoConstraints="NO" id="wJE-ku-zEc">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designed &amp; Developed By Mohamed Ayadi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="439" width="441" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1829787-0-Logoattempt2.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Or-4l-HKq">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6Or-4l-HKq" secondAttribute="height" multiplier="1:1" id="NCP-o4-2Qh"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="tintColor" red="0.098039215686274508" green="0.5607843137254902" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="wJE-ku-zEc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CRH-iY-Huf"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstItem="6Or-4l-HKq" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="RTn-lw-B63"/>
+                <constraint firstItem="wJE-ku-zEc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="SIO-xw-weY"/>
+                <constraint firstAttribute="bottom" secondItem="wJE-ku-zEc" secondAttribute="bottom" id="TbX-Gm-h4P"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+                <constraint firstItem="6Or-4l-HKq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bIn-ds-deJ"/>
+                <constraint firstItem="6Or-4l-HKq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bNY-2G-6xY"/>
+                <constraint firstAttribute="trailing" secondItem="wJE-ku-zEc" secondAttribute="trailing" id="iBq-zP-cM3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="402" y="316"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="1829787-0-Logoattempt2.png" width="1024" height="1024"/>
+        <image name="976627-0-bluesquare.png" width="208" height="196"/>
+    </resources>
+</document>

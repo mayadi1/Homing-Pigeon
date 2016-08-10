@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		716425B41B9913FD0015C8E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 716425B31B9913FD0015C8E7 /* main.m */; };
+		716425B71B9913FD0015C8E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 716425B61B9913FD0015C8E7 /* AppDelegate.m */; };
+		716425BA1B9913FD0015C8E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716425B91B9913FD0015C8E7 /* ViewController.m */; };
+		716425BD1B9913FD0015C8E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716425BB1B9913FD0015C8E7 /* Main.storyboard */; };
+		716425BF1B9913FE0015C8E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716425BE1B9913FE0015C8E7 /* Images.xcassets */; };
+		716425C21B9913FE0015C8E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716425C01B9913FE0015C8E7 /* LaunchScreen.xib */; };
+		716425CE1B9913FE0015C8E7 /* Homing_PigeonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716425CD1B9913FE0015C8E7 /* Homing_PigeonTests.m */; };
+		716425D81B9914630015C8E7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716425D71B9914630015C8E7 /* CoreLocation.framework */; };
+		71C5EF5F1C4DCD97000B2EFD /* 976627-0-bluesquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C5EF581C4DCD96000B2EFD /* 976627-0-bluesquare.png */; };
+		71C5EF601C4DCD97000B2EFD /* 1829787-0-Logoattempt2.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C5EF591C4DCD97000B2EFD /* 1829787-0-Logoattempt2.png */; };
+		71C5EF611C4DCD97000B2EFD /* crazy.css.jgz in Resources */ = {isa = PBXBuildFile; fileRef = 71C5EF5A1C4DCD97000B2EFD /* crazy.css.jgz */; };
+		71C5EF621C4DCD97000B2EFD /* crazy2.js.jgz in Resources */ = {isa = PBXBuildFile; fileRef = 71C5EF5B1C4DCD97000B2EFD /* crazy2.js.jgz */; };
+		71C5EF631C4DCD97000B2EFD /* cssfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71C5EF5C1C4DCD97000B2EFD /* cssfile.txt */; };
+		71C5EF641C4DCD97000B2EFD /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 71C5EF5D1C4DCD97000B2EFD /* index.html */; };
+		71C5EF651C4DCD97000B2EFD /* select-arrow-drop-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 71C5EF5E1C4DCD97000B2EFD /* select-arrow-drop-down.png */; };
+		B457015C1C49FE6800AF8844 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B457015B1C49FE6800AF8844 /* SystemConfiguration.framework */; };
+		B457015F1C49FE8A00AF8844 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B457015E1C49FE8A00AF8844 /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		716425C81B9913FE0015C8E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 716425A61B9913FD0015C8E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 716425AD1B9913FD0015C8E7;
+			remoteInfo = "Homing Pigeon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		716425AE1B9913FD0015C8E7 /* Homing Pigeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homing Pigeon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716425B21B9913FD0015C8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716425B31B9913FD0015C8E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		716425B51B9913FD0015C8E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		716425B61B9913FD0015C8E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		716425B81B9913FD0015C8E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		716425B91B9913FD0015C8E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		716425BC1B9913FD0015C8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		716425BE1B9913FE0015C8E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		716425C11B9913FE0015C8E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		716425C71B9913FE0015C8E7 /* Homing PigeonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homing PigeonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		716425CC1B9913FE0015C8E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		716425CD1B9913FE0015C8E7 /* Homing_PigeonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homing_PigeonTests.m; sourceTree = "<group>"; };
+		716425D71B9914630015C8E7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71C5EF581C4DCD96000B2EFD /* 976627-0-bluesquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "976627-0-bluesquare.png"; sourceTree = "<group>"; };
+		71C5EF591C4DCD97000B2EFD /* 1829787-0-Logoattempt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1829787-0-Logoattempt2.png"; sourceTree = "<group>"; };
+		71C5EF5A1C4DCD97000B2EFD /* crazy.css.jgz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crazy.css.jgz; sourceTree = "<group>"; };
+		71C5EF5B1C4DCD97000B2EFD /* crazy2.js.jgz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crazy2.js.jgz; sourceTree = "<group>"; };
+		71C5EF5C1C4DCD97000B2EFD /* cssfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cssfile.txt; sourceTree = "<group>"; };
+		71C5EF5D1C4DCD97000B2EFD /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		71C5EF5E1C4DCD97000B2EFD /* select-arrow-drop-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select-arrow-drop-down.png"; sourceTree = "<group>"; };
+		B457015B1C49FE6800AF8844 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B457015D1C49FE8A00AF8844 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		B457015E1C49FE8A00AF8844 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		716425AB1B9913FD0015C8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B457015C1C49FE6800AF8844 /* SystemConfiguration.framework in Frameworks */,
+				716425D81B9914630015C8E7 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716425C41B9913FE0015C8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		716425A51B9913FD0015C8E7 = {
+			isa = PBXGroup;
+			children = (
+				B457015B1C49FE6800AF8844 /* SystemConfiguration.framework */,
+				716425D71B9914630015C8E7 /* CoreLocation.framework */,
+				716425B01B9913FD0015C8E7 /* Homing Pigeon */,
+				716425CA1B9913FE0015C8E7 /* Homing PigeonTests */,
+				716425AF1B9913FD0015C8E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		716425AF1B9913FD0015C8E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				716425AE1B9913FD0015C8E7 /* Homing Pigeon.app */,
+				716425C71B9913FE0015C8E7 /* Homing PigeonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		716425B01B9913FD0015C8E7 /* Homing Pigeon */ = {
+			isa = PBXGroup;
+			children = (
+				716425B51B9913FD0015C8E7 /* AppDelegate.h */,
+				716425B61B9913FD0015C8E7 /* AppDelegate.m */,
+				716425B81B9913FD0015C8E7 /* ViewController.h */,
+				716425B91B9913FD0015C8E7 /* ViewController.m */,
+				B457015D1C49FE8A00AF8844 /* Reachability.h */,
+				B457015E1C49FE8A00AF8844 /* Reachability.m */,
+				B45701581C49FBEA00AF8844 /* NO INTERNET */,
+				716425BB1B9913FD0015C8E7 /* Main.storyboard */,
+				716425BE1B9913FE0015C8E7 /* Images.xcassets */,
+				716425C01B9913FE0015C8E7 /* LaunchScreen.xib */,
+				716425B11B9913FD0015C8E7 /* Supporting Files */,
+			);
+			path = "Homing Pigeon";
+			sourceTree = "<group>";
+		};
+		716425B11B9913FD0015C8E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				716425B21B9913FD0015C8E7 /* Info.plist */,
+				716425B31B9913FD0015C8E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		716425CA1B9913FE0015C8E7 /* Homing PigeonTests */ = {
+			isa = PBXGroup;
+			children = (
+				716425CD1B9913FE0015C8E7 /* Homing_PigeonTests.m */,
+				716425CB1B9913FE0015C8E7 /* Supporting Files */,
+			);
+			path = "Homing PigeonTests";
+			sourceTree = "<group>";
+		};
+		716425CB1B9913FE0015C8E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				716425CC1B9913FE0015C8E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B45701581C49FBEA00AF8844 /* NO INTERNET */ = {
+			isa = PBXGroup;
+			children = (
+				71C5EF581C4DCD96000B2EFD /* 976627-0-bluesquare.png */,
+				71C5EF591C4DCD97000B2EFD /* 1829787-0-Logoattempt2.png */,
+				71C5EF5A1C4DCD97000B2EFD /* crazy.css.jgz */,
+				71C5EF5B1C4DCD97000B2EFD /* crazy2.js.jgz */,
+				71C5EF5C1C4DCD97000B2EFD /* cssfile.txt */,
+				71C5EF5D1C4DCD97000B2EFD /* index.html */,
+				71C5EF5E1C4DCD97000B2EFD /* select-arrow-drop-down.png */,
+			);
+			name = "NO INTERNET";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		716425AD1B9913FD0015C8E7 /* Homing Pigeon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716425D11B9913FE0015C8E7 /* Build configuration list for PBXNativeTarget "Homing Pigeon" */;
+			buildPhases = (
+				716425AA1B9913FD0015C8E7 /* Sources */,
+				716425AB1B9913FD0015C8E7 /* Frameworks */,
+				716425AC1B9913FD0015C8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homing Pigeon";
+			productName = "Homing Pigeon";
+			productReference = 716425AE1B9913FD0015C8E7 /* Homing Pigeon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		716425C61B9913FE0015C8E7 /* Homing PigeonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 716425D41B9913FE0015C8E7 /* Build configuration list for PBXNativeTarget "Homing PigeonTests" */;
+			buildPhases = (
+				716425C31B9913FE0015C8E7 /* Sources */,
+				716425C41B9913FE0015C8E7 /* Frameworks */,
+				716425C51B9913FE0015C8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				716425C91B9913FE0015C8E7 /* PBXTargetDependency */,
+			);
+			name = "Homing PigeonTests";
+			productName = "Homing PigeonTests";
+			productReference = 716425C71B9913FE0015C8E7 /* Homing PigeonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		716425A61B9913FD0015C8E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bishop Morley";
+				TargetAttributes = {
+					716425AD1B9913FD0015C8E7 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 6KKRC5GQMV;
+					};
+					716425C61B9913FE0015C8E7 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 716425AD1B9913FD0015C8E7;
+					};
+				};
+			};
+			buildConfigurationList = 716425A91B9913FD0015C8E7 /* Build configuration list for PBXProject "Homing Pigeon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 716425A51B9913FD0015C8E7;
+			productRefGroup = 716425AF1B9913FD0015C8E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				716425AD1B9913FD0015C8E7 /* Homing Pigeon */,
+				716425C61B9913FE0015C8E7 /* Homing PigeonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		716425AC1B9913FD0015C8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C5EF621C4DCD97000B2EFD /* crazy2.js.jgz in Resources */,
+				716425BD1B9913FD0015C8E7 /* Main.storyboard in Resources */,
+				71C5EF631C4DCD97000B2EFD /* cssfile.txt in Resources */,
+				71C5EF641C4DCD97000B2EFD /* index.html in Resources */,
+				71C5EF601C4DCD97000B2EFD /* 1829787-0-Logoattempt2.png in Resources */,
+				71C5EF611C4DCD97000B2EFD /* crazy.css.jgz in Resources */,
+				71C5EF651C4DCD97000B2EFD /* select-arrow-drop-down.png in Resources */,
+				716425C21B9913FE0015C8E7 /* LaunchScreen.xib in Resources */,
+				71C5EF5F1C4DCD97000B2EFD /* 976627-0-bluesquare.png in Resources */,
+				716425BF1B9913FE0015C8E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716425C51B9913FE0015C8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		716425AA1B9913FD0015C8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716425BA1B9913FD0015C8E7 /* ViewController.m in Sources */,
+				716425B71B9913FD0015C8E7 /* AppDelegate.m in Sources */,
+				B457015F1C49FE8A00AF8844 /* Reachability.m in Sources */,
+				716425B41B9913FD0015C8E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716425C31B9913FE0015C8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716425CE1B9913FE0015C8E7 /* Homing_PigeonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		716425C91B9913FE0015C8E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 716425AD1B9913FD0015C8E7 /* Homing Pigeon */;
+			targetProxy = 716425C81B9913FE0015C8E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		716425BB1B9913FD0015C8E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				716425BC1B9913FD0015C8E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		716425C01B9913FE0015C8E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				716425C11B9913FE0015C8E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		716425CF1B9913FE0015C8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		716425D01B9913FE0015C8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		716425D21B9913FE0015C8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Homing Pigeon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.homingpigeon.homingpigeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		716425D31B9913FE0015C8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Homing Pigeon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.homingpigeon.homingpigeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		716425D51B9913FE0015C8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Homing PigeonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.HomingPigeon.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homing Pigeon.app/Homing Pigeon";
+			};
+			name = Debug;
+		};
+		716425D61B9913FE0015C8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Homing PigeonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.HomingPigeon.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homing Pigeon.app/Homing Pigeon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		716425A91B9913FD0015C8E7 /* Build configuration list for PBXProject "Homing Pigeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716425CF1B9913FE0015C8E7 /* Debug */,
+				716425D01B9913FE0015C8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		716425D11B9913FE0015C8E7 /* Build configuration list for PBXNativeTarget "Homing Pigeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716425D21B9913FE0015C8E7 /* Debug */,
+				716425D31B9913FE0015C8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		716425D41B9913FE0015C8E7 /* Build configuration list for PBXNativeTarget "Homing PigeonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				716425D51B9913FE0015C8E7 /* Debug */,
+				716425D61B9913FE0015C8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 716425A61B9913FD0015C8E7 /* Project object */;
+}
